@@ -1,0 +1,11 @@
+Difference between HTTP1.1 vs HTTP2
+
+HTTP2 can send mulitiple data request over 1TCP connection while HTTP1 requires many TCP connection.
+HTTP2 reduces additional round trip time (RTT), making your website load faster.
+HTTP1.1 used to process text commands to complete request-response cycles. HTTP2 will use binary commands to execute the same tasks.
+HTTP2 will convert the same text commands into binary before transmitting it over the network.
+HTTP2 has Less prone to errors, Lighter network footprint, Effective network resource utilization, Reduced network latency and improved throughput.
+HTTP2 is Efficient and robust in terms of processing of data between client and server.
+HTTP2 allows the client saves pushed resources in the cache, the client can reuse these cached resources across different pages.
+HTTP2 can prioritize pushed resources.
+HTTP2 provides many new mechanics over HTTP1.1 and also solves the issues in HTTP1.1 and thus this boosts web page preformance.

@@ -1,0 +1,24 @@
+Objects and Its Internal representation in JavaScript
+
+Objects in JavaScript is one most important data type and also the building block for mordern JavaScript.
+Number, String, Boolean, null, undefined and symbol are JavaScript’s primitive data-types which these data types store a single value each depending on their types.
+Objects are more complex and each object may contain any combination of these primitive data-types and its also a reference data type.
+objectbjects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key value” pairs, keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+A JavaScript object has properties associated with it, A property is a a variable that is attached to the object. The properties of an object define the characteristics of the object.
+An object property name can be any valid JavaScript string, or anything that can be converted to a string, including the empty string.
+
+Constructor is a function and with help of new keyword, constructor function allows to create multiple objects of same flavor.
+
+eg:
+
+   function Vehicle(name, maker) {
+   this.name = name;
+   this.maker = maker;
+}
+let car1 = new Vehicle(’Mustang’, 'Ford’);
+let car2 = new Vehicle(’Q3’, 'Audi’)
+console.log(car1.name);    //Output: Mustang
+console.log(car2.name);    //Output: Q3
+
+
+
